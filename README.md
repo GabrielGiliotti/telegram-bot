@@ -1,2 +1,2 @@
 # TelegramBot
-Create your Telegram Bot
+Create your Telegram Bot with the pyTelegramBotAPI.

@@ -1,0 +1,25 @@
+Como criar um Bot Telegram Facil:
+
+1-) No telegram, procurar por BotFather(nome de usuario "bot"), clicar em começar para iniciar o chat;
+2-) Selecionar na lista de opções ou enviar a mensagem "/newbot" para criar um novo bot;
+3-) O BotFather solicitará o nome do Bot. Enviar o texto referente ao nome do bot (ex.: Crazy Bot);
+4-) O BotFather solicitará o nome do usuario. Enviar o texto referente ao nome do usuario do bot (ex.: mycrazy_bot);
+5-) Copiar o token fornecido;
+6-) Enviar o comando "/mybots" e terminar a configuração do bot. Configurações importantes:
+
+BotSettings->Allow Groups: deve ser desabilitado
+Edit Bot->Edit Description: incluir descrição
+Edit Bot->Edit About: incluir descrição
+Edit Bot->Edit Botpic: enviar foto do perfil (ex.: Imagem feita no Paint)
+
+A biblioteca utilizada é a pyTelegramBotAPI mas você pode utilizar outras bibliotecas python.
+
+
+O objetivo desta tarefa é que entender o processo de criação de um bot e um pouco da API do telegram (encapsulada por uma
+biblioteca python)
+Quando solicitado, listar os dados que o usuário tem acesso;
+Quando solicitado o valor de um dado, faça uso da API rest e envie o valor do dado.
+
+Outras orientações:
+Use a sua criatividade para incluir recursos e deixar a interface amigável;
+Deixe o usuário fixo no código do bot (É possível identificar qual é o usuário).
